@@ -14,7 +14,7 @@ function setup() {
   bullet.shapeColor = "white";
 
   wall = createSprite(1100, 200, thickness, height/2);
-  wall.shapeColor(80,80,80);
+  wall.shapeColor = color(80,80,80);
 }
 
 function draw() {
